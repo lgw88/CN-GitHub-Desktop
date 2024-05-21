@@ -1,4 +1,5 @@
 @Echo off
+Echo 获取最新: https://github.com/lgw88/CN-GitHub-Desktop
 if exist "%USERPROFILE%\AppData\Local\GitHubDesktop\app-3.3.18\resources\app" (
 	Echo Setup GitHub Desktop 3.3.18 恢复原英文...
 	if exist "%USERPROFILE%\AppData\Local\GitHubDesktop\app-3.3.18\resources\app\en\main.js" (
