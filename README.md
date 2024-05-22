@@ -4,6 +4,8 @@
 其他版本可以发给本人更新
 Email: luguowen @ foxmail.com
 
+下载GitHub Desktop:  https://desktop.github.com/
+下载汉化GitHub Desktop: https://github.com/lgw88/CN-GitHub-Desktop/
 
 安装中文方法:
 执行 setup_cn.bat
