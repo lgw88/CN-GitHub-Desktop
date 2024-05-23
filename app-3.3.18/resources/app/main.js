@@ -35,7 +35,7 @@
 	,{id:"show-devtools",label:"&T.切换到开发工具",accelerator:"Ctrl+Shift+I",click(e,t){t&&t.webContents.toggleDevTools()}}]});
 	const v=function(e,t){return e?t?"&U.强制推送…":"&U.强制推送":"&U.推送"}(l,r),y=l?"force-push":"push";
 	h.push({label:"&R.代码仓",id:"repository",submenu:[{id:"push",label:v,accelerator:"CmdOrCtrl+P",click:fe(y)}
-	,{id:"pull",label:"Pu&ll",accelerator:"CmdOrCtrl+Shift+P",click:fe("pull")}
+	,{id:"pull",label:"&L.下拉",accelerator:"CmdOrCtrl+Shift+P",click:fe("pull")}
 	,{id:"fetch",label:"&F.同步",accelerator:"CmdOrCtrl+Shift+T",click:fe("fetch")}
 	,{label:d,id:"remove-repository",accelerator:"CmdOrCtrl+Backspace",click:fe("remove-repository")}
 	,p
