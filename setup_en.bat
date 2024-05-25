@@ -1,16 +1,25 @@
 @Echo off
-Echo 获取最新: https://github.com/lgw88/CN-GitHub-Desktop
-if exist "%USERPROFILE%\AppData\Local\GitHubDesktop\app-3.3.18\resources\app" (
-	Echo Setup GitHub Desktop 3.3.18 恢复原英文...
-	if exist "%USERPROFILE%\AppData\Local\GitHubDesktop\app-3.3.18\resources\app\en\main.js" (
-		copy "%USERPROFILE%\AppData\Local\GitHubDesktop\app-3.3.18\resources\app\en\main.js" "%USERPROFILE%\AppData\Local\GitHubDesktop\app-3.3.18\resources\app\"
+set ok=0
+goto :Start
+:RestoreEN
+if exist "%USERPROFILE%\AppData\Local\GitHubDesktop\%1\resources\app" (
+	Echo Setup GitHub Desktop %1 恢复原英文...
+	if exist "%USERPROFILE%\AppData\Local\GitHubDesktop\%1\resources\app\en\main.js" (
+		copy "%USERPROFILE%\AppData\Local\GitHubDesktop\%1\resources\app\en\main.js" "%USERPROFILE%\AppData\Local\GitHubDesktop\%1\resources\app\"
 	)
-	if exist "%USERPROFILE%\AppData\Local\GitHubDesktop\app-3.3.18\resources\app\en\renderer.js" (
-		copy "%USERPROFILE%\AppData\Local\GitHubDesktop\app-3.3.18\resources\app\en\renderer.js" "%USERPROFILE%\AppData\Local\GitHubDesktop\app-3.3.18\resources\app\"
+	if exist "%USERPROFILE%\AppData\Local\GitHubDesktop\%1\resources\app\en\renderer.js" (
+		copy "%USERPROFILE%\AppData\Local\GitHubDesktop\%1\resources\app\en\renderer.js" "%USERPROFILE%\AppData\Local\GitHubDesktop\%1\resources\app\"
 	)
+	set ok=1
 	Echo 恢复完成
-	Pause
-	Exit
 )
-Echo 没有找到安装已知的版本, 把相似的文件发给本人处理
-Pause
+Exit /b
+:Start
+Echo 恢复GitHub Desktop为原版
+Echo 获取最新版: https://github.com/lgw88/CN-GitHub-Desktop
+Call :RestoreEN	app-3.3.18
+Call :RestoreEN	app-3.3.19-beta1
+Echo.
+if %ok%==0 Echo 没有找到安装已知的GitHub桌面版本
+Echo 按任意键结束
+Pause >nul
