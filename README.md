@@ -1,6 +1,8 @@
 # CN GitHub Desktop
  让 GitHub Desktop 显示中文信息  
+支持版本 3.0.8  
 支持版本 3.3.18  
+支持版本 3.3.19 Bate 1
 其他版本可以发给本人更新  
 Email: luguowen @ foxmail.com
 
