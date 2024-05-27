@@ -22,6 +22,7 @@ Echo 获取最新版: https://github.com/lgw88/CN-GitHub-Desktop
 Call :RestoreCN	app-3.0.8
 Call :RestoreCN	app-3.3.18
 Call :RestoreCN	app-3.3.19-beta1
+Call :RestoreCN	app-3.3.19-beta2
 Echo.
 if %ok%==0 Echo 没有找到安装GitHub已知的版本, 可以把相似的文件发给本人处理
 Echo 按任意键结束

@@ -3,6 +3,7 @@
 支持版本 3.0.8  
 支持版本 3.3.18  
 支持版本 3.3.19 Bate 1
+支持版本 3.3.19 Bate 2
 其他版本可以发给本人更新  
 Email: luguowen @ foxmail.com
 
