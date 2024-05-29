@@ -1,5 +1,9 @@
 # CN GitHub Desktop
+<<<<<<< Updated upstream
  让 GitHubDesktop 显示中文信息(汉化)   
+=======
+ 让 GitHubDesktop 显示中文信息(汉化)  
+>>>>>>> Stashed changes
 支持版本 3.0.8  
 支持版本 3.3.18  
 支持版本 3.3.19 Bate 1  
