@@ -5,6 +5,8 @@
 支持版本 3.3.19 Bate 1  
 支持版本 3.3.19 Bate 2  
 支持版本 3.4.0  
+支持版本 3.4.1 Bate 1  
+支持版本 3.4.2 Bate 1  
   
 支持GitHub Desktop 简体中文  
 支持GitHub Desktop 繁體中文  
