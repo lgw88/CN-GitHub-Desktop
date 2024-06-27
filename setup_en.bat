@@ -27,6 +27,7 @@ Call :RestoreEN	app-3.4.1
 Call :RestoreEN	app-3.4.2-beta1
 Call :RestoreEN	app-3.4.2-beta2
 Call :RestoreEN	app-3.4.2-beta3
+Call :RestoreEN	app-3.4.2-beta4
 Echo.
 if %ok%==0 Echo 没有找到安装已知的GitHub桌面版本
 Echo 按任意键结束
