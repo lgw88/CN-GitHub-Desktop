@@ -11,7 +11,9 @@
 支持版本 3.4.2 Bate 2  
 支持版本 3.4.2 Bate 3  
 支持版本 3.4.2 Bate 4  
-支持版本 3.4.3 Bate 1  
+支持版本 3.4.3 Bate 1 
+支持版本 3.4.3 Bate 2 
+支持版本 3.4.2 作者终于发现漏了一个版本
   
 支持GitHub Desktop 简体中文  
 支持GitHub Desktop 繁體中文  
