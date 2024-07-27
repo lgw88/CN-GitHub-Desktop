@@ -33,6 +33,7 @@ Call :RestoreCN	app-3.4.2-beta4
 Call :RestoreCN	app-3.4.3-beta1
 Call :RestoreCN	app-3.4.3-beta2
 Call :RestoreCN	app-3.4.2
+Call :RestoreCN	app-3.4.3-beta3
 Echo.
 if %ok%==0 Echo 没有找到安装GitHub已知的版本, 可以把相似的文件发给本人处理
 Echo 按任意键结束
