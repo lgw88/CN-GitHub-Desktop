@@ -35,6 +35,7 @@ Call :RestoreCN	app-3.4.3-beta2
 Call :RestoreCN	app-3.4.2
 Call :RestoreCN	app-3.4.3
 Call :RestoreCN	app-3.4.3-beta3
+Call :RestoreCN	app-3.4.5
 Echo.
 if %ok%==0 Echo ?有找到安?GitHub已知的版本, 可以把相似的文件??本人?理
 Echo 按任意??束
