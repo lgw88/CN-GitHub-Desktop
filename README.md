@@ -17,13 +17,10 @@
 支持版本 3.4.3  
 支持版本 3.4.3 Bate 3  
 支持版本 3.4.5  
-<<<<<<< Updated upstream
 支持版本 3.4.6  
 支持版本 3.4.8  
 支持版本 3.4.9  
 支持版本 3.4.12  
-=======
->>>>>>> Stashed changes
   
 支持GitHub Desktop 简体中文  
 支持GitHub Desktop 繁體中文  
