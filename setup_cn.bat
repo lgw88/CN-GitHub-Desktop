@@ -37,9 +37,12 @@ Call :RestoreCN	app-3.4.3
 Call :RestoreCN	app-3.4.3-beta3
 Call :RestoreCN	app-3.4.5
 Call :RestoreCN	app-3.4.6
+<<<<<<< Updated upstream
 Call :RestoreCN	app-3.4.8
 Call :RestoreCN	app-3.4.9
 Call :RestoreCN	app-3.4.12
+=======
+>>>>>>> Stashed changes
 Echo.
 if %ok%==0 Echo 没有找到安装GitHub已知的版本, 可以把相似的文件发给本人处理
 Echo 按任意键结束
