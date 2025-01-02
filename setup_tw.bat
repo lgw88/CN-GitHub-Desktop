@@ -38,6 +38,8 @@ Call :RestoreCN	app-3.4.3-beta3
 Call :RestoreCN	app-3.4.5
 Call :RestoreCN	app-3.4.6
 Call :RestoreCN	app-3.4.8
+Call :RestoreCN	app-3.4.9
+Call :RestoreCN	app-3.4.12
 Echo.
 if %ok%==0 Echo ?¦³§ä¨ì¦wÆGitHub¤wª¾ªºª©¥», ¥i¥H§â¬Û¦üªº¤å¥ó‰Y°e¥»¤H‰]²z
 Echo «ö¥ô·N??§ô
