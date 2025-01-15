@@ -38,6 +38,7 @@ Call :RestoreEN	app-3.4.6
 Call :RestoreEN	app-3.4.8
 Call :RestoreEN	app-3.4.9
 Call :RestoreEN	app-3.4.12
+Call :RestoreEN	app-3.4.13
 
 Echo.
 if %ok%==0 Echo 没有找到安装已知的GitHub桌面版本
