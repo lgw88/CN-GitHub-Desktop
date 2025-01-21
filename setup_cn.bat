@@ -41,6 +41,7 @@ Call :RestoreCN	app-3.4.8
 Call :RestoreCN	app-3.4.9
 Call :RestoreCN	app-3.4.12
 Call :RestoreCN	app-3.4.13
+Call :RestoreCN	app-3.4.14
 
 Echo.
 if %ok%==0 Echo 没有找到安装GitHub已知的版本, 可以把相似的文件发给本人处理
