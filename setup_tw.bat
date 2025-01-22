@@ -17,7 +17,7 @@ if exist "%USERPROFILE%\AppData\Local\GitHubDesktop\%1\resources\app" (
 )
 Exit /b
 :Start
-Echo úä¤ÆGitHub Desktop
+Echo ?¤ÆGitHub Desktop
 Echo ?¨ú³Ì·sª©: https://github.com/lgw88/CN-GitHub-Desktop
 Call :RestoreCN	app-3.0.8
 Call :RestoreCN	app-3.3.18
@@ -45,6 +45,6 @@ Call :RestoreCN	app-3.4.14
 Call :RestoreCN	app-3.4.15
 
 Echo.
-if %ok%==0 Echo ?¦³§ä¨ì¦wÆGitHub¤wª¾ªºª©¥», ¥i¥H§â¬Û¦üªº¤å¥ó‰Y?¥»¤H‰]²z
+if %ok%==0 Echo ?¦³§ä¨ì¦w?GitHub¤wª¾ªºª©¥», ¥i¥H§â¬Û¦üªº¤å¥ó??¥»¤H?²z
 Echo «ö¥ô·N??§ô
 Pause >nul
