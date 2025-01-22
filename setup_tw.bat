@@ -17,8 +17,8 @@ if exist "%USERPROFILE%\AppData\Local\GitHubDesktop\%1\resources\app" (
 )
 Exit /b
 :Start
-Echo ?化GitHub Desktop
-Echo ?取最新版: https://github.com/lgw88/CN-GitHub-Desktop
+Echo 漢化GitHub Desktop
+Echo 獲取最新版: https://github.com/lgw88/CN-GitHub-Desktop
 Call :RestoreCN	app-3.0.8
 Call :RestoreCN	app-3.3.18
 Call :RestoreCN	app-3.3.19-beta1
@@ -45,6 +45,6 @@ Call :RestoreCN	app-3.4.14
 Call :RestoreCN	app-3.4.15
 
 Echo.
-if %ok%==0 Echo ?有找到安?GitHub已知的版本, 可以把相似的文件??本人?理
-Echo 按任意??束
+if %ok%==0 Echo 沒有找到安裝GitHub已知的版本, 可以把相似的文件發給本人處理
+Echo 按任意鍵結束
 Pause >nul
