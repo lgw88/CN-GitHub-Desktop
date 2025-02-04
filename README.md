@@ -5,6 +5,7 @@ GitHub Desktop 汉化
 支持GitHub Desktop 简体中文  
 支持GitHub Desktop 繁體中文  
   
+支持版本 3.4.16
 支持版本 3.4.16 Bate 1  
 支持版本 3.4.15  
 支持版本 3.4.14  
