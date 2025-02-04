@@ -4,6 +4,8 @@ GitHub Desktop Chinese
 GitHub Desktop 汉化
 支持GitHub Desktop 简体中文  
 支持GitHub Desktop 繁體中文  
+[安装说明](#安装说明)
+
   
 支持版本 3.4.16  2025.2.4  
 支持版本 3.4.16 Bate 1  
@@ -37,14 +39,40 @@ GitHub Desktop 汉化
 其他版本可以发给本人更新  
 Email: luguowen @ foxmail.com
   
-下载GitHub Desktop:  https://desktop.github.com/  
-下载汉化GitHub Desktop: https://github.com/lgw88/CN-GitHub-Desktop/  
+
+## 安装说明
+
   
-安装简体中文方法:  
-执行 setup_cn.bat  
+第一步：找台 Win 10 或 Win 11 的电脑  (有Win12以上也可以)
   
-安裝繁體中文方法:  
-執行 setup_tw.bat  
+第二步：下载GitHub Desktop  
+  页面下载: https://desktop.github.com/download/
   
-还原英文方法:  
-执行 setup_en.bat
+第三步：下载汉化GitHub Desktop  
+  页面下载: https://github.com/lgw88/CN-GitHub-Desktop  
+  直接下载: https://codeload.github.com/lgw88/CN-GitHub-Desktop/zip/refs/heads/main  
+  
+第四步: 执行 GitHubDesktopSetup-x64.exe 安装后关闭  
+  
+第五步: 解压 CN-GitHub-Desktop-main.zip  
+  安装简体中文方法:  
+  执行 setup_cn.bat  
+  
+  安裝繁體中文方法:  
+  執行 setup_tw.bat  
+  
+  还原英文方法:  
+  执行 setup_en.bat
+
+  
+第六步: 在“桌面”或“开始”找到GitHub Desktop执行  
+
+第七步: 登录帐号(第一次使用GitHub Desktop要注册一下帐号)
+
+第八步: 在GitHub Desktop软件选择"文件"-"克隆代码仓"
+
+第九步: 选择网址  
+  网址栏填"https://github.com/lgw88/CN-GitHub-Desktop"  
+  路径按自己情况填(我喜欢是D:\GitHub\XXXXX\)  
+  开始克隆
+
