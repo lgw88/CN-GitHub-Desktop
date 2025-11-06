@@ -18,6 +18,7 @@ Exit /b
 Echo 恢复GitHub Desktop为原版
 Echo 获取最新版: https://github.com/lgw88/CN-GitHub-Desktop
 
+Call :RestoreEN	app-3.5.4
 Call :RestoreEN	app-3.5.3
 Call :RestoreEN	app-3.5.2
 Call :RestoreEN	app-3.5.1
