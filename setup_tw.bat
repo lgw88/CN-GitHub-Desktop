@@ -20,6 +20,7 @@ Exit /b
 Echo 漢化GitHub Desktop
 Echo 獲取最新版: https://github.com/lgw88/CN-GitHub-Desktop
 
+Call :RestoreCN	app-3.5.5
 Call :RestoreCN	app-3.5.4
 Call :RestoreCN	app-3.5.3
 Call :RestoreCN	app-3.5.2
